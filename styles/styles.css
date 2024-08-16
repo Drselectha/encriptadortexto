@@ -46,3 +46,39 @@
 
 .text-area2:focus{outline: none;}
 
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar{
+    background: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    color: #0A3871;
+    margin-left: 30px;
+    height: 67px;
+    width: 328px;
+}
+.btn-Encriptar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    color: #0A3871;
+    position: absolute;
+    margin-left: 108px;
+    margin-top: 402px;
+    height: 67px;
+    width: 336px;
+}
