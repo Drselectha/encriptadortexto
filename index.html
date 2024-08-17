@@ -19,18 +19,18 @@
             <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
         </div>
         <div class="botones">
-            <button class="btn-Encriptar">Encriptar</button>
-            <button class="btn-desencriptar">Desencriptar</button>
+            <button class="btn-Encriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="btn-desencriptar" onclick=" btnDesencriptar()">Desencriptar</button>
         </div>
     </section>
     <section class="seccion2">
-        <textarea class="text-area2" rows="10" cols="20" placeholder="Mensajes"></textarea>
+        <textarea id="areaCopy" class="text-area2" id="copy" rows="10" cols="20" placeholder="Mensajes"></textarea>
         <div>
-            <button class="copiar">Copiar</button>
+            <button class="copiar" onclick= " copiara() " >Copiar</button>
         </div>
     </section>
    </main>
-   
+   <script src="/script.js"></script>
   
 </body>
 </html>
